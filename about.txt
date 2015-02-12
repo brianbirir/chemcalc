@@ -4,6 +4,6 @@ Version: 1.0
 
 Developed By: Brian K. Birir
 
-Website: http://thekenyangeek.com/chemcalculator
+Website: http://brian.co.ke/chemcalculator
 
 Email: brianbirir@gmail.com
