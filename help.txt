@@ -1,0 +1,12 @@
+Chem Calculator is an electronic calculator or chemistry "accounting tool" that can be used by high school/college students and laboratory technicians to perform basic chemistry lab calculations that include mole concept, volumetric analysis and gas laws.
+
+The instructions provided herewith will help you to use this chemistry calculator:
+
+1. When starting up the application you are at first provided with three options for carrying out you calculations:
+    -Gas: This option has the ability to compute calculations that involve gas molar concept.
+    -Gas Laws: This option has the ability to compute calculations of Charles' Law and Boyle's Law.
+    -Aqueous Solutions: This option has the functionality to do assist in volumetric analysis or titration. It helps in getting the molarity of an aqueous solution.
+
+2.To use the three functionalities and the sub-functions within them, simply insert your values and click the calculate buttons to get your result. The result will be displayed in a dialog window. After the result is displayed, click the check button on the top right corner of the window to close the dialog box and the fields in which your values were inserted are cleared so that you can input new values; otherwise click the back button (on the bottom right corner of the phone screen) to go to the back menu.
+
+3. Click on the basic chemistry info icon (on the bottom navigation bar on the screen, the second icon) to access chemistry information related to the chemistry calculator.

@@ -1,0 +1,9 @@
+Chem Calc
+
+Version: 1.0
+
+Developed By: Brian K. Birir
+
+Website: http://thekenyangeek.com/chemcalculator
+
+Email: brianbirir@gmail.com

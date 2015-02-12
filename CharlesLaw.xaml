@@ -1,0 +1,65 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="ChemCalc.CharlesLaw"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="768"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <!--Pivot Control-->
+        <controls:Pivot Title="Chem Calc" Foreground="Black">
+            <controls:Pivot.Background>
+                <ImageBrush ImageSource="/ChemCalc;component/chemcalc_background.png" />
+            </controls:Pivot.Background>
+            <!--Pivot item one-->
+            <controls:PivotItem Header="Temperature, T2" Foreground="Black">
+                <Grid Name="gridTemperatureTwo">
+                    <TextBlock FontSize="24" Height="37" HorizontalAlignment="Left" Margin="22,10,0,0" Name="lblTemperatureOne" Text="Temperature One in kelvin:" VerticalAlignment="Top" Width="326" Foreground="Black"/>
+                    <TextBlock FontSize="24" Height="37" HorizontalAlignment="Left" Margin="22,124,0,0" Name="lblVolumeOne" Text="Volume One in dm3:" VerticalAlignment="Top" Width="326" Foreground="Black"/>
+                    <TextBlock FontSize="24" Height="35" HorizontalAlignment="Left" Margin="25,243,0,0" Name="lblVolumeTwo" Text="Volume Two in dm3:" TextWrapping="Wrap" VerticalAlignment="Top" Width="413" />
+                    <TextBox Background="White" BorderThickness="0" FontSize="25" Height="72" HorizontalAlignment="Left" Margin="10,38,0,0" Name="txtTemperatureOne" Text="" VerticalAlignment="Top" Width="419" InputScope="Number"/>
+                    <TextBox Background="White" BorderThickness="0" FontSize="25" Height="72" HorizontalAlignment="Left" Margin="9,153,0,0" Name="txtVolumeOne" Text="" VerticalAlignment="Top" Width="419" InputScope="Number"/>
+                    <TextBox Background="White" BorderThickness="0" FontSize="25" Height="72" HorizontalAlignment="Left" Margin="14,271,0,0" Name="txtVolumeTwo" Text="" VerticalAlignment="Top" Width="419" InputScope="Number"/>
+                    <Button Content="Calculate New Temperature" Height="92" HorizontalAlignment="Left" Margin="48,364,0,0" Name="btnCalcTemperatureTwo" VerticalAlignment="Top" Width="369" Click="btnCalcTemperatureTwo_Click" Background="Black" BorderBrush="{x:Null}" Foreground="#FFFCFC17" />
+                </Grid>
+            </controls:PivotItem>
+
+            <!--Pivot item two-->
+            <controls:PivotItem Header="Volume, V2" Foreground="Black">
+                <Grid Name="gridVolumeTwo">
+                    <TextBlock FontSize="24" Height="37" HorizontalAlignment="Left" Margin="22,10,0,0" Name="lblTemperatureOne1" Text="Temperature One in kelvin:" VerticalAlignment="Top" Width="326" Foreground="Black"/>
+                    <TextBlock FontSize="24" Height="37" HorizontalAlignment="Left" Margin="22,124,0,0" Name="lblVolumeOne1" Text="Volume One in dm3:" VerticalAlignment="Top" Width="326" Foreground="Black"/>
+                    <TextBlock FontSize="24" Height="35" HorizontalAlignment="Left" Margin="25,243,0,0" Name="lblTemperatureTwo" Text="Temperature Two in kelvin:" TextWrapping="Wrap" VerticalAlignment="Top" Width="413" Foreground="Black"/>
+                    <TextBox Background="White" BorderThickness="0" FontSize="25" Height="72" HorizontalAlignment="Left" Margin="10,38,0,0" Name="txtTemperatureOne1" Text="" VerticalAlignment="Top" Width="419" InputScope="Number"/>
+                    <TextBox Background="White" BorderThickness="0" FontSize="25" Height="72" HorizontalAlignment="Left" Margin="9,153,0,0" Name="txtVolumeOne1" Text="" VerticalAlignment="Top" Width="419" InputScope="Number"/>
+                    <TextBox Background="White" BorderThickness="0" FontSize="25" Height="72" HorizontalAlignment="Left" Margin="14,271,0,0" Name="txtTemperatureTwo" Text="" VerticalAlignment="Top" Width="419" InputScope="Number"/>
+                    <Button Content="Calculate New Volume" Height="92" HorizontalAlignment="Left" Margin="48,360,0,0" Name="btnCalcVolumeTwo" VerticalAlignment="Top" Width="352" Click="btnCalcVolumeTwo_Click" Background="Black" BorderBrush="{x:Null}" Foreground="#FFFCFC17"/>
+
+                </Grid>
+            </controls:PivotItem>
+        </controls:Pivot>
+    </Grid>
+
+    <!--Sample code showing usage of ApplicationBar-->
+    <!--<phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
+            <shell:ApplicationBarIconButton x:Name="appbar_button1" IconUri="/Images/appbar_button1.png" Text="Button 1"/>
+            <shell:ApplicationBarIconButton x:Name="appbar_button2" IconUri="/Images/appbar_button2.png" Text="Button 2"/>
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem x:Name="menuItem1" Text="MenuItem 1"/>
+                <shell:ApplicationBarMenuItem x:Name="menuItem2" Text="MenuItem 2"/>
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>-->
+    
+</phone:PhoneApplicationPage>

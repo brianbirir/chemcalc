@@ -1,0 +1,35 @@
+BASIC CHEMISTRY INFORMATION
+
+Introduction:
+The information given herewith should provide some basic chemistry information to help you when using the chemistry calculator mobile application.
+
+Measurements:
+1 cubic decimeter(dm3) = 1000 cubic centimeters(cm3)
+1 cubic decimeter(dm3) = 1 litre (l) 
+
+Volumetric Analysis (Molarity):
+This is the chemical procedure of determining the concentration of a solution. The concentration of a solution is the mass of solute
+per cubic decimeter of solution (g/dm3). In another definition it is the amount of moles of a solution.
+Molarity is the concentration of a solution expressed in mol/dm3.
+A standard solution is a solution of known concentration. It is used in volumetric analysis (acid/base titrations) to determine amount 
+of solute in a solution or its molarity.
+
+Gas Laws:
+Standard temperature and pressure(S.T.P): It is a reference point for expressing the properties of ideal gases. The standard temperature
+is the freezing point of water i.e. zero degrees celsius or 273 kelvin. The standard pressure is one atmosphere (760mmHg or 100 kPa).
+The volume of one mole of an ideal gas at S.T.P is 22.4 dm3(litres).
+Four variables are used to state the condition of a gas:
+    -Temperature
+    -Pressure
+    -Volume
+    -Quantity of matter in moles
+
+Boyle's Law: Its relates the volume and the pressure of a gas at constant temperature. The law states that for a fixed mass of a
+gas the volume is inversely proportional to its pressure (kelvin) provided temperature remains constant.
+
+Charles' Law: Its relates the volume and the temperature of a gas at constant pressure. The law states that for a fixed mass of a
+gas the volume is directly proportional to the absolute temperature (kelvin) provided pressure remains constant.
+
+Molar Volume of a gas:
+It is one mole of any ideal gas occupies 22.4dm3 of standard temperature and pressure (S.T.P) or 24.0dm3 at room temperature and
+pressure(R.T.P)
